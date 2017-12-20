@@ -1,5 +1,5 @@
 # NeuralNetwork
-Full connected network for detection MNIST dataset  
+Fully connected network for classification of MNIST dataset  
 
 MNIST DATASET: http://yann.lecun.com/exdb/mnist/  
 VISUAL STUDIO 2012 project  
@@ -9,9 +9,9 @@ VISUAL STUDIO 2012 project
 2: Path to MNIST train-labels  
 3: Path to MNIST test-images  
 4: Path to MNIST test-labels  
-5: number hidden neuron
-6: learn rate
-7: number epochs
+5: number hidden neuron  
+6: learn rate  
+7: number epochs  
 
 ### Example config.txt (is in the repository)
 train_data_path = train-images.idx3-ubyte  
@@ -22,6 +22,6 @@ number_hidden_neurons = 300
 learn_rate = 0.01  
 number_eras = 10  
 
-### Error with parameters from example:  
-Train: 0.015833  
-Test: 0.0258
+### Accuracy with parameters from example:  
+Train: 0.984167  
+Test: 0.9742
